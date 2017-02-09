@@ -4,7 +4,7 @@
 }
 
 .col {
-	/*padding-left: 0px !important;
+    /*padding-left: 0px !important;
 	padding-right: 0px !important;*/
 }
 
@@ -38,7 +38,7 @@
 }
 
 .card.horizontal .card-content .post-content {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .card .card-action {
@@ -59,18 +59,28 @@
     padding-left: 0px;
 }
 
+.card.vertical .no-cover {
+	padding-top: 0px;
+}
+
 .page-content {
-    margin-top: 2%;
+    margin-top: 3.5%;
 }
 
 .post-first .card-image img {
     max-height: 400px;
 }
 
+.secondary {
+	margin-top: 63px;
+}
+
 header nav {
     background-color: white;
     border-bottom: 1px solid black;
     box-shadow: none;
+    margin-left: 0.7%;
+    margin-right: 0.7%;
 }
 
 header nav .brand-logo {

@@ -4,8 +4,13 @@ layout: default
 <div class="row post-wrapper">
 	<div class="col s12 m8 l8">
 		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+		  {% if page.cover %}
+		  <div class="post-cover">
+		  	<img src="{{ page.cover | prepend: site.baseurl }}">
+		  </div>
+		  {% endif %}
 		  <header class="post-header">
-		    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+		    <h1 class="post-title {% unless page.cover %}no-cover{% endunless %}" itemprop="name headline">{{ page.title }}</h1>
 		    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 		  </header>
 		  <div class="post-content" itemprop="articleBody">
@@ -18,9 +23,11 @@ layout: default
 	    {% for post in site.posts limit:5 %}
 	    <div class="col">
 	        <div class="card vertical">
+	        	{% if post.cover %}
 	            <div class="card-image">
 	                <img src="{{ post.cover | prepend: site.baseurl }}">
 	            </div>
+	            {% endif %}
 	            <div class="card-stacked">
 	                <div class="card-content">
 	                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="card-title post-title">{{ post.title }}</span></a>

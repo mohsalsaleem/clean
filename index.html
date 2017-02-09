@@ -26,9 +26,11 @@ layout: default
         {% for post in site.posts %}
         <div class="col s12 m6 l4">
             <div class="card vertical">
+                {% if post.cover %}
                 <div class="card-image">
-                    {% if post.cover %}<img src="{{ post.cover | prepend: site.baseurl }}"> {% endif %}
+                    <img src="{{ post.cover | prepend: site.baseurl }}"> 
                 </div>
+                {% endif %}
                 <div class="card-content {% unless post.cover %}no-cover{% endunless %}">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="card-title post-title">{{ post.title }}</span></a>
                     <div class="post-content">{{ post.excerpt }}</div>

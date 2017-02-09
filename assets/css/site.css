@@ -1,0 +1,78 @@
+.body-wrapper {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.col {
+	/*padding-left: 0px !important;
+	padding-right: 0px !important;*/
+}
+
+.card {
+    box-shadow: none;
+}
+
+.post-title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    line-height: normal;
+    color: #000000 !important;
+}
+
+.post-content {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6b6b6b !important;
+}
+
+.post-link {
+    color: #0027ff !important;
+    font-size: 20px;
+    text-transform: capitalize !important;
+    line-height: normal;
+}
+
+.card.horizontal .card-content .post-content {
+	margin-top: 30px;
+}
+
+.card .card-action {
+    border-top: 0px;
+}
+
+.card.horizontal .card-content {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+}
+
+.card.vertical .card-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.card.vertical .card-action {
+    padding-left: 0px;
+}
+
+.page-content {
+    margin-top: 2%;
+}
+
+.post-first .card-image img {
+    max-height: 400px;
+}
+
+header nav {
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+}
+
+header nav .brand-logo {
+    color: black;
+}

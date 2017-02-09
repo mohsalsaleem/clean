@@ -7,7 +7,7 @@ layout: default
         <div class="col s12 m12 l12 post-first">
             <div class="card horizontal">
                 <div class="card-image">
-                    <img src="{{ post.cover }}">
+                    <img src="{{ post.cover | prepend: site.baseurl }}">
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
@@ -27,7 +27,7 @@ layout: default
         <div class="col s12 m6 l4">
             <div class="card vertical">
                 <div class="card-image">
-                    {% if post.cover %}<img src="{{ post.cover }}"> {% endif %}
+                    {% if post.cover %}<img src="{{ post.cover | prepend: site.baseurl }}"> {% endif %}
                 </div>
                 <div class="card-content {% unless post.cover %}no-cover{% endunless %}">
                     <span class="card-title post-title">{{ post.title }}</span>

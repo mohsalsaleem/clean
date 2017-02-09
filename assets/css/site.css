@@ -30,7 +30,7 @@
     color: #6b6b6b !important;
 }
 
-.post-link {
+.card-action .post-link {
     color: #0027ff !important;
     font-size: 20px;
     text-transform: capitalize !important;
@@ -64,7 +64,7 @@
 }
 
 .page-content {
-    margin-top: 3.5%;
+    /*margin-top: 0.5%;*/
 }
 
 .post-first .card-image img {
@@ -75,12 +75,21 @@
 	margin-top: 63px;
 }
 
+.recent {
+    margin-top: 10px;
+}
+
+.recent-header {
+    padding-left: 7px;
+    margin-bottom: 30px;
+}
+
 header nav {
     background-color: white;
     border-bottom: 1px solid black;
     box-shadow: none;
     margin-left: 0.7%;
-    margin-right: 0.7%;
+    width: 97.5%;
 }
 
 header nav .brand-logo {

@@ -11,7 +11,7 @@ layout: default
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
-                        <span class="card-title post-title">{{ post.title }}</span>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="card-title post-title">{{ post.title }}</span></a>
                         <div class="post-content">{{ post.excerpt }}</div>
                     </div>
                     <div class="card-action">
@@ -30,7 +30,7 @@ layout: default
                     {% if post.cover %}<img src="{{ post.cover | prepend: site.baseurl }}"> {% endif %}
                 </div>
                 <div class="card-content {% unless post.cover %}no-cover{% endunless %}">
-                    <span class="card-title post-title">{{ post.title }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="card-title post-title">{{ post.title }}</span></a>
                     <div class="post-content">{{ post.excerpt }}</div>
                 </div>
                 <div class="card-action">

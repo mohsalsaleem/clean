@@ -1,15 +1,37 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-</article>
+<div class="row post-wrapper">
+	<div class="col s12 m8 l8">
+		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+		  <header class="post-header">
+		    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+		    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+		  </header>
+		  <div class="post-content" itemprop="articleBody">
+		    {{ content }}
+		  </div>
+		</article>
+	</div>
+	<div class="col s12 m4 l4 recent">
+		<header class="recent-header"><h5>Recent</h5></header>
+	    {% for post in site.posts limit:5 %}
+	    <div class="col">
+	        <div class="card vertical">
+	            <div class="card-image">
+	                <img src="{{ post.cover | prepend: site.baseurl }}">
+	            </div>
+	            <div class="card-stacked">
+	                <div class="card-content">
+	                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="card-title post-title">{{ post.title }}</span></a>
+	                    <div class="post-content">{{ post.excerpt }}</div>
+	                </div>
+	                <div class="card-action">
+	                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    {% endfor %}
+	</div>
+</div>

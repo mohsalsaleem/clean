@@ -12,6 +12,11 @@
         </div>
         <!-- {% include footer.html %} -->
     </div>
+    {% if page.article_id %}
+<script type="text/javascript">
+    function guid(){function a(){return Math.floor(65536*(1+Math.random())).toString(16).substring(1)}return a()+a()+"-"+a()+"-"+a()+"-"+a()+"-"+a()+a()+a()}function sendData(a){var b=new XMLHttpRequest;b.addEventListener("readystatechange",function(){4===this.readyState}),b.open("POST","http://ec2-54-218-97-71.us-west-2.compute.amazonaws.com/datacollectionphp/dataCollector.php"),b.setRequestHeader("content-type","application/x-www-form-urlencoded"),b.setRequestHeader("cache-control","no-cache"),b.send(a)}function getCookie(a){for(var b=a+"=",c=decodeURIComponent(document.cookie),d=c.split(";"),e=0;e<d.length;e++){for(var f=d[e];" "==f.charAt(0);)f=f.substring(1);if(0==f.indexOf(b))return f.substring(b.length,f.length)}return""}function checkCookie(a){var b=getCookie(a);return""!=b}function setCookie(a,b,c){var d=new Date;d.setTime(d.getTime()+24*c*60*60*1e3);var e="expires="+d.toUTCString();document.cookie=a+"="+b+";"+e+";path=/"}var today=new Date,startTime=today.getTime(),dd=today.getDate(),mm=today.getMonth()+1,yyyy=today.getFullYear();dd<10&&(dd="0"+dd),mm<10&&(mm="0"+mm),today=mm+"/"+dd+"/"+yyyy;var pageId=document.head.querySelector("meta[property='fanads:page_id']").content,articleId=document.head.querySelector("meta[property='fanads:article_id']").content,uid="",COOKIE_NAME="fanadnetworkuid";checkCookie(COOKIE_NAME)?uid=getCookie(COOKIE_NAME):(uid=guid(),setCookie(COOKIE_NAME,uid,60));var opened={uid:uid,articleId:parseInt(articleId),pageId:parseInt(pageId),date:Math.floor(Date.now()),type:'pageView',referrer: document.referrer},data=JSON.stringify(opened);sendData(data);
+    </script>
+{% endif %}
 </body>
 
 </html>

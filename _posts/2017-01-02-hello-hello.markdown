@@ -3,23 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-02-09 17:49:48 +0530
 categories: jekyll update
+excerpt: Bodybuilding Motivation - TOP 6 Aesthetic Bodybuilders 2016 - 2017
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div class="medium-editor-element medium-editor-insert-plugin">
+<p markdown="0">Bodybuilding Motivation - TOP 6 Aesthetic Bodybuilders 2016 - 2017</p><div class="medium-insert-embeds medium-insert-embeds-left" contenteditable="false" markdown="0"><figure markdown="0"><div class="medium-insert-embed" markdown="0"><div class="video video-youtube" markdown="0"><iframe width="515" height="300" src="//www.youtube.com/embed/_9eU3StSnug" frameborder="0" allowfullscreen="" markdown="0"></iframe></div></div></figure><div class="medium-insert-embeds-overlay" markdown="0"></div></div><p markdown="0">Bodybuilding Motivation 2017 - LISTEN</p><div class="medium-insert-embeds medium-insert-embeds-left" contenteditable="false" markdown="0"><figure markdown="0"><div class="medium-insert-embed" markdown="0"><div class="video video-youtube" markdown="0"><iframe width="515" height="300" src="//www.youtube.com/embed/aV9L3dvkiJs" frameborder="0" allowfullscreen="" markdown="0"></iframe></div></div></figure><div class="medium-insert-embeds-overlay" markdown="0"></div></div><p markdown="0">TOP 5 Freakiest Bodybuilders Ever In Bodybuilding History</p><div class="medium-insert-embeds medium-insert-embeds-left" contenteditable="false" markdown="0"><figure markdown="0"><div class="medium-insert-embed" markdown="0"><div class="video video-youtube" markdown="0"><iframe width="515" height="300" src="//www.youtube.com/embed/qkrxV8g0H6Q" frameborder="0" allowfullscreen="" markdown="0"></iframe></div></div></figure><div class="medium-insert-embeds-overlay" markdown="0"></div></div><p markdown="0">Bodybuilding motivation - AIM HIGH 2017</p><div class="medium-insert-embeds medium-insert-embeds-left" contenteditable="false" markdown="0"><figure markdown="0"><div class="medium-insert-embed" markdown="0"><div class="video video-youtube" markdown="0"><iframe width="515" height="300" src="//www.youtube.com/embed/4ZyRSPgOkmo" frameborder="0" allowfullscreen="" markdown="0"></iframe></div></div></figure><div class="medium-insert-embeds-overlay" markdown="0"></div></div>
+</div>
